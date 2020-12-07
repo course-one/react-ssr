@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "components/*": [
+                "src/components/*"
+            ],
+            "hocs/*": [
+                "src/hocs/*"
+            ],
+            "services/*": [
+                "src/services/*"
+            ],
+            "utils/*": [
+                "src/utils/*"
+            ]
+        },
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react"
+    }
+}

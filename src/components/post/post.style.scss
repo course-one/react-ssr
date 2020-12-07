@@ -1,0 +1,32 @@
+.ui-post {
+    width: 400px;
+
+    &__title {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    &__body {
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #673AB7;
+        color: #fff;
+        text-align: left;
+        
+        &__title {
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.5;
+            font-weight: bold;
+        }
+    
+        &__description {
+            margin: 10px 0 0 0;
+            font-size: 12px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+    }
+}

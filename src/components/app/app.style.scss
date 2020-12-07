@@ -1,0 +1,25 @@
+.ui-app {
+    padding: 20px;
+    font-family: sans-serif;
+
+    // navigation
+    &__navigation {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        &__link {
+            flex: 0 0 auto;
+            margin-right: 20px;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #000;
+
+            &--active {
+                color: #673AB7;
+                font-weight: bold;
+            }
+        }
+    }
+}
